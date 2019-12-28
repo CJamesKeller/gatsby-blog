@@ -25,7 +25,7 @@ const Bio = () => {
         siteMetadata {
           author
           social {
-            twitter
+            linkedin
           }
         }
       }
@@ -54,11 +54,15 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        <strong>{author}</strong> lives in Minnesota, where he provides
+        Web Application Consulting, writes, serves as State Chair for the
+        <a href="https://www.solidarity-party.org">
+          American Solidarity Party
+        </a>
+        and spends time with family and friends.
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+        <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
+          Find me on LinkedIn!
         </a>
       </p>
     </div>
