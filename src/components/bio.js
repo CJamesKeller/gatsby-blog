@@ -56,9 +56,11 @@ const Bio = () => {
       <p>
         <strong>{author}</strong> lives in Minnesota, where he provides
         Web Application Consulting, writes, serves as State Chair for the
+        {` `}
         <a href="https://www.solidarity-party.org">
           American Solidarity Party
         </a>
+        {` `}
         and spends time with family and friends.
         {` `}
         <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
